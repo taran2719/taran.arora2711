@@ -1,0 +1,123 @@
+body, html 
+{
+    height: 20%;
+    margin: 0;
+}
+
+.video-container 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+}
+
+#video-bg 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 20%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
+.content 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+.professional 
+{
+    background-color: rgb(175, 200, 202);
+    padding: 20px;
+}
+
+.personal 
+{
+    background-color: #7f757a;
+    padding: 20px;
+}
+
+hr.green-rule 
+{
+    background-color: rgb(120, 92, 123);
+    width: 70%;
+    height: 3px;
+}
+h3 
+{
+    color: rgb(129, 81, 110);
+    border-bottom: 0.5px solid rgb(80, 111, 68);
+    width: 5%;
+}
+
+a
+{
+    color: rgb(41, 7, 234);
+    text-decoration: none;
+}
+
+ul 
+{
+    background-color: lightgray;
+    padding: 6px;
+}
+
+table.work-table 
+{
+    background-color: black;
+    width: 300px;
+}
+
+table.work-table tr th 
+{
+    background-color: grey;
+}
+
+table.work-table tr td 
+{
+    background-color: lightgrey;
+    text-align: center;
+}
+.photo 
+{
+    border: 2px solid rgb(26, 1, 31);
+}
+#unique-heading
+{
+    background-color: rgb(181, 158, 194);
+}
+table 
+{
+    border-collapse: collapse;
+}
+  
+  td 
+{
+    padding: 10px;
+}
+  
+  img 
+{
+    border-radius: 10px;
+    border-color:black;
+}
+body 
+{
+    background-color: rgb(157, 58, 101);
+}
+  
